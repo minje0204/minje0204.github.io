@@ -1,4 +1,6 @@
-rpt: "유저스토리 작성, 애자일 방법론"
+---
+title:  "Story Mapping, Product Backlog를 시각적으로 구성하는 방법"
+excerpt: "유저스토리 작성, 애자일 방법론"
 
 categories:
   - Project
