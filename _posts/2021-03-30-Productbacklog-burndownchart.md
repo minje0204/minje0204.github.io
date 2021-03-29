@@ -4,12 +4,14 @@ excerpt: "유저스토리 작성, 애자일 방법론"
 
 categories:
   - Project
+
 tags:
   - Agile Project Management
   - Product Backlog
   - Story Map
 
 last_modified_at: 2021-03-29T23:34:00-00:36:00
+
 ---
 
 졸업프로젝트를 시작한지 한달....
