@@ -20,7 +20,7 @@ title                    : "꾸준한 사람이 되자"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "조민제"
-description              : "무엇이든 배우고 싶은 열정만 앞서는 끈기는 부족한..."
+description              : "게임 좋아하는 개발자 지망생!!"
 url                      : "https://minje0204.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "조민제"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "무엇이든 배우고 싶은 열정만 앞서는 끈기는 부족한..."
+  bio              : "게임 좋아하는 개발자 지망생!!"
   location         : "South Korea Suwon"
   email            :
   links:
