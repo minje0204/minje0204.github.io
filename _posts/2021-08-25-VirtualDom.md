@@ -30,7 +30,7 @@ react를 사용해오면서 가상돔을 알게 되고, 이게 왜 필요한 것
 4. Tree에 각 노드들을 거쳐가면서 색을 칠해준다.
 5. **Rendering** 완료  
  
- ## 왜 DOM Tree를 직접 수정하는 것이 오래걸릴까?
+## 왜 DOM Tree를 직접 수정하는 것이 오래걸릴까?
 DOM Tree에 변화가 생기면, 위 렌더링 과정이 처음부터 다시 시작되어야 한다. 특히, **attachement** 과정에서 style은 tag, class, id별로 style이 다르게 주어질 수 있고, 별다른 언급이 없다면 부모 노드의 style을 따르기 때문에 상당한 연산이 필요한데, 복잡한 **SPA** 와 같이 DOM 변경이 잦아 진다면, 렌더링 과정을 비효율적으로 만들것이다.   
 
 ### 가상돔을 쓴다면?
@@ -43,5 +43,5 @@ DOM Tree에 변화가 생기면, 위 렌더링 과정이 처음부터 다시 시
 어쨌든 가상 돔을 사용해도, 연산이 아예 사라지는 것이 아니기 때문에 단순히 **가상 돔**을 쓴다고 해서 빠르다고 볼 수 없다. 그래도 보통 문제없이 사용할 정도는 된다고 한다. **가상 돔**에서의 연산과정 조차 줄이기 위해서 아예 빌드시 해당 연산을 해버리는 **servlet**도 있다. 하지만 html 변경시 재빌드가 필요하다는 단점이 있다.
 
 ### REFERENCE
-https://hashnode.com/post/the-one-thing-that-no-one-properly-explains-about-react-why-virtual-dom-cisczhfj41bmssp53mvfwmgrq
-https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+(https://hashnode.com/post/the-one-thing-that-no-one-properly-explains-about-react-why-virtual-dom-cisczhfj41bmssp53mvfwmgrq)
+(https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
