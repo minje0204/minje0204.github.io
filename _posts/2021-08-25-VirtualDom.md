@@ -1,3 +1,18 @@
+---
+title:  "Virtual Dom (가상돔)"
+excerpt: "브라우저 작동방식에서 알아보는 가상돔의 필요성"
+
+categories:
+  - WEB
+
+tags:
+  - Browser
+  - Virtual DOM
+
+last_modified_at: 2021-08-25T21:22:00-21:22:01
+
+---
+
 # Virtual Dom (가상돔)
 
 react를 사용해오면서 가상돔을 알게 되고, 이게 왜 필요한 것인지 궁금해졌다. 먼저, 
