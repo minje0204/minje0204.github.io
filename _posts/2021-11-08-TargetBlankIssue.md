@@ -16,14 +16,14 @@ last_modified_at: 2021-11-08T17:00:00-18:00:00
 ```html
   <a href="https://minje0204.github.io/" target="_blank">
 	Made by minje0204 </a>
-  ```
+```
   
- ## target="_blank"의 문제점  
+## target="_blank"의 문제점  
 
 **target="_blank"** 에는 2가지 문제가 있는데 한가지는 **tab-napping**이고 다른 한가지는 
 
   
- ### 1.  보안상 취약점이 생긴다.
+### 1.  보안상 취약점이 생긴다.
 **target="_blank"** 가 사용된 a tag는 사용자가 클릭하면 **새 탭**에서 링크된 페이지가 열린다. 여기서, 해당 링크를 연 윈도우가 **window.opener**에 저장된다. 
 
 >**Window.opener**  
