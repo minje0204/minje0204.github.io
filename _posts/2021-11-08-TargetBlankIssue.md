@@ -1,6 +1,6 @@
 ---
-title:  "target=_blank을 쓸 때 유의할 점(이었던것)"
-excerpt: "보안상, 퍼포먼스상의"
+title:  "target=_blank을 쓸 때 유의할 점"
+excerpt: "(이었던것)"
 
 categories:
   - Web
@@ -10,19 +10,7 @@ tags:
 last_modified_at: 2021-11-08T17:00:00-18:00:00
 
 ---
----
-title:  "ORM vs Raw Query / N+1 Problem"
-excerpt: "ORM이 항상 정답은 아니다!"
 
-categories:
-  - DataBase
-tags:
-  - ORM
-  - SQL
-
-last_modified_at: 2021-09-02T20:00:00-23:38:05
-
----
 개발자들은 새 탭이나 새 창으로 특정 페이지를 여는 링크를 구현할 때, 아래와 같이 **target="_blank"** 옵션을 이용하곤 한다.  
   하지만 이 방식에는 2가지 문제가 있었다. 오늘은 이 2가지 문제에 대해서 알아보려고 한다.
 ```html
