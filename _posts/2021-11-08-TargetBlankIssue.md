@@ -1,6 +1,6 @@
 
 ---
-title:  target=_blank을 쓸 때 유의할 점(이었던것)
+title:  "target=_blank을 쓸 때 유의할 점(이었던것)"
 excerpt: "보안상, 퍼포먼스상의 "
 
 categories:
