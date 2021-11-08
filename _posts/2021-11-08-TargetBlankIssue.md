@@ -1,7 +1,7 @@
 
 ---
 title:  target=_blank을 쓸 때 유의할 점(이었던것)
-excerpt: ""
+excerpt: "보안상, 퍼포먼스상의 "
 
 categories:
   - Web
